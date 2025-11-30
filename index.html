@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="uz">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Moshinali O'yin</title>
+  <link rel="stylesheet" href="./stiyle.css">
+</head>
+
+<body>
+  <div class="game-wrap">
+    <header>
+      <h1>Moshinali O'yin</h1>
+      <div class="hud">
+        <div>Score: <span id="score">0</span></div>
+        <div>Level: <span id="level">1</span></div>
+      </div>
+    </header>
+
+    <main>
+      <canvas id="game" width="400" height="600"></canvas>
+      <div class="controls">
+        <button id="left">◀</button>
+        <button id="restart">⟳</button>
+        <button id="right">▶</button>
+      </div>
+    </main>
+
+    <footer>
+      <small>Arrow keys / A D — harakatlaning. Mobile uchun tugmalar mavjud.</small>
+    </footer>
+  </div>
+
+  <script src="./scipt.js"></script>
+</body>
+
+</html>
